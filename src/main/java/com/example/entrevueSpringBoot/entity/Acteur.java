@@ -16,7 +16,7 @@ public class Acteur {
     private Long id;
     private String nom;
     private String prenom;
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToMany(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "id")
     private List<Film> films;
     

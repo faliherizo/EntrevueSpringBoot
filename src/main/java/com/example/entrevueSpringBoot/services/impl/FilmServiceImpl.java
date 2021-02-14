@@ -34,6 +34,6 @@ public class FilmServiceImpl implements FilmService {
 
     @Override
     public Optional<FilmDto> GetFilm(long id) {
-        return filmRepository.findById(id).map(f -> filmMapper.mapToDto(f));
+        return filmRepository.findById(id).map(filmMapper::mapToDto);
     }
 }

@@ -40,7 +40,7 @@ public class FilmController {
     public ResponseEntity<FilmDto> get(@PathVariable Long id) throws FilmNotFoundException {
         Optional<FilmDto> film = this.filmService.GetFilm(id);
         if(film.isPresent()){
-            return new ResponseEntity(film, HttpStatus.OK);
+            return new ResponseEntity<>(film.get(), HttpStatus.OK);
         }
         throw new FilmNotFoundException(id);
     }
