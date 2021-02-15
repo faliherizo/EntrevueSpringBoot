@@ -1,8 +1,8 @@
-package com.example.entrevueSpringBoot.mapper;
+package com.example.rh.mapper;
 
-import com.example.entrevueSpringBoot.dto.FilmDto;
-import com.example.entrevueSpringBoot.entity.Film;
-import com.example.entrevueSpringBoot.services.impl.FilmServiceImpl;
+import com.example.rh.dto.FilmDto;
+import com.example.rh.entity.Film;
+import com.example.rh.services.impl.FilmServiceImpl;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

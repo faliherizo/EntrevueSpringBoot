@@ -1,6 +1,6 @@
-package com.example.entrevueSpringBoot.services;
+package com.example.rh.services;
 
-import com.example.entrevueSpringBoot.dto.FilmDto;
+import com.example.rh.dto.FilmDto;
 
 import java.util.Optional;
 

@@ -1,12 +1,9 @@
-package com.example.entrevueSpringBoot.services.impl;
+package com.example.rh.services.impl;
 
-import com.example.entrevueSpringBoot.dto.FilmDto;
-import com.example.entrevueSpringBoot.entity.Film;
-import com.example.entrevueSpringBoot.mapper.FilmMapper;
-import com.example.entrevueSpringBoot.repository.FilmRepository;
-import com.example.entrevueSpringBoot.services.FilmService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.example.rh.dto.FilmDto;
+import com.example.rh.mapper.FilmMapper;
+import com.example.rh.repository.FilmRepository;
+import com.example.rh.services.FilmService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +14,6 @@ import java.util.Optional;
  */
 @Service
 public class FilmServiceImpl implements FilmService {
-    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final FilmRepository filmRepository;
     private final FilmMapper filmMapper;
 

@@ -1,4 +1,4 @@
-package com.example.entrevueSpringBoot.controllers.exceptions;
+package com.example.rh.controllers.exceptions;
 
 /**
  * Class FilmNotFoundException.

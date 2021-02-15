@@ -1,8 +1,8 @@
-package com.example.entrevueSpringBoot.controllers;
+package com.example.rh.controllers;
 
-import com.example.entrevueSpringBoot.controllers.exceptions.FilmNotFoundException;
-import com.example.entrevueSpringBoot.dto.FilmDto;
-import com.example.entrevueSpringBoot.services.FilmService;
+import com.example.rh.controllers.exceptions.FilmNotFoundException;
+import com.example.rh.dto.FilmDto;
+import com.example.rh.services.FilmService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

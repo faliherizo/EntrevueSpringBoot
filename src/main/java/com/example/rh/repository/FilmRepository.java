@@ -1,6 +1,6 @@
-package com.example.entrevueSpringBoot.repository;
+package com.example.rh.repository;
 
-import com.example.entrevueSpringBoot.entity.Film;
+import com.example.rh.entity.Film;
 import org.springframework.data.repository.CrudRepository;
 
 /**

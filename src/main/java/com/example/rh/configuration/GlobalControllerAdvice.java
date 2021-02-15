@@ -1,8 +1,8 @@
-package com.example.entrevueSpringBoot.configuration;
+package com.example.rh.configuration;
 
 
-import com.example.entrevueSpringBoot.controllers.exceptions.FilmNotFoundException;
-import com.example.entrevueSpringBoot.dto.ApiError;
+import com.example.rh.controllers.exceptions.FilmNotFoundException;
+import com.example.rh.dto.ApiError;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;

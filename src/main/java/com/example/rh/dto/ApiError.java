@@ -1,4 +1,4 @@
-package com.example.entrevueSpringBoot.dto;
+package com.example.rh.dto;
 
 import java.util.List;
 

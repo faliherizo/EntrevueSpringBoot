@@ -1,4 +1,4 @@
-package com.example.entrevueSpringBoot.configuration;
+package com.example.rh.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

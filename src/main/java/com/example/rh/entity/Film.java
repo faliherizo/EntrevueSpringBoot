@@ -1,4 +1,4 @@
-package com.example.entrevueSpringBoot.entity;
+package com.example.rh.entity;
 
 import javax.persistence.*;
 import java.util.Collections;
